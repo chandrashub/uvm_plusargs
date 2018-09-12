@@ -1,0 +1,1 @@
+set PrefMain(LinePrefix) {}; run -a; quit -f

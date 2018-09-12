@@ -1,0 +1,2 @@
+vlog mbp_pkg.sv top.sv
+vsim -batch -lib work -do dofile top  "+m_addr_min=0" "+m_addr_max=3000" "+UVM_VERBOSITY=UVM_MEDIUM" "+m_packet0_m_addr=2000" "+m_packet1_m_addr=2200" "+ext_mbp_packet_m_addr=2210" "+ext1_mbp_packet_m_addr=2220"
