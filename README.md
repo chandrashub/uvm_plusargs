@@ -9,3 +9,6 @@
 # +ext_mbp_packet_m_addr = 2210 // sets m_addr in the type of object "ext_mbp_packet" to 2000
 # +ext1_mbp_packet_m_addr = 2220 // sets m_addr in the type of object "ext1_mbp_packet" to 2000
 
+#The README is optimized to run on Mentor QuestaSim. Please update the run cmd if running on other simulators.
+
+
